@@ -1,0 +1,8 @@
+.venv
+.ropeproject
+inputs
+
+poetry.lock
+*.ipynb
+*.glb
+*.json

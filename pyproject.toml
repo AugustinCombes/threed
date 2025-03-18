@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "threed"
+version = "0.1.0"
+description = ""
+authors = ["AugustinCombes <65305236+AugustinCombes@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.6.0"
+torchvision = "^0.21.0"
+numpy = "^2.2.4"
+pillow = "^11.1.0"
+huggingface-hub = "^0.29.3"
+einops = "^0.8.1"
+vggt = {git = "git@github.com:AugustinCombes/vggt.git"}
+av = "^14.2.0"
+safetensors = "^0.5.3"
+trimesh = "^4.6.4"
+matplotlib = "^3.10.1"
+scipy = "^1.15.2"
+opencv-python = "^4.11.0.86"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
