@@ -3,6 +3,8 @@
 inputs
 
 poetry.lock
+*.DS_Store
 *.ipynb
 *.glb
+*.xyz
 *.json
